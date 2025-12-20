@@ -7,6 +7,7 @@ import Gives from './Gives/Gives';
 import You from './You/You';
 import Wings from './Wings/Wings';
 import Gift from './Gift/Gift';
+import QRCodes from "./QRCodes";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/You" element={<You />} />
           <Route path="/Wings" element={<Wings />} />
           <Route path="/Gift" element={<Gift />} />
+          <Route path="/QRCodes" element={<QRCodes />} />
         </Routes>
       </div>
     </Router>
