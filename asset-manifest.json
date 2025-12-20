@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mozel-tov-oren/static/css/main.f855e6bc.css",
+    "main.js": "/mozel-tov-oren/static/js/main.c003221b.js",
+    "static/js/453.c1c2c554.chunk.js": "/mozel-tov-oren/static/js/453.c1c2c554.chunk.js",
+    "index.html": "/mozel-tov-oren/index.html",
+    "main.f855e6bc.css.map": "/mozel-tov-oren/static/css/main.f855e6bc.css.map",
+    "main.c003221b.js.map": "/mozel-tov-oren/static/js/main.c003221b.js.map",
+    "453.c1c2c554.chunk.js.map": "/mozel-tov-oren/static/js/453.c1c2c554.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.c003221b.js"
+  ]
+}
