@@ -9,6 +9,7 @@ function Wings() {
         frameBorder="0"
         className="giphy-embed"
         allowFullScreen
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         title="Red Giphy"
       ></iframe>
     </div>

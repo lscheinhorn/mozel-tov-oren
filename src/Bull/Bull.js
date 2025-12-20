@@ -8,6 +8,7 @@ function Bull() {
         height="270"
         frameBorder="0"
         className="giphy-embed"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
         title="Red Giphy"
       ></iframe>
