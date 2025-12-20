@@ -9,6 +9,8 @@ function Gift() {
         frameBorder="0"
         className="giphy-embed"
         allowFullScreen
+        style={{ width: '100%', height: 'auto', minHeight: '270px' }}
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         title="Red Giphy"
       ></iframe>
     </div>

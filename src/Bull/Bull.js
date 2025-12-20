@@ -10,6 +10,7 @@ function Bull() {
         className="giphy-embed"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
+        style={{ width: '100%', height: 'auto', minHeight: '270px' }}
         title="Red Giphy"
       ></iframe>
     </div>
