@@ -1,9 +1,15 @@
+import vars from '../vars.js';  
+
+const vidUrl = `https://www.youtube.com/embed/5Ys-oX5vZog`
+const origin = vars.origin
+const srcUrl = `${vidUrl}?origin=${origin}`
+
 function You() {
   return (
     <div>
       <h1 style={{ color: 'red' }}>You</h1>
       <iframe
-        src="https://www.youtube.com/embed/5Ys-oX5vZog"
+        src={srcUrl}
         width="480"
         height="270"
         frameBorder="0"

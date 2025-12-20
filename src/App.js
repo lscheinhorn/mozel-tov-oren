@@ -12,7 +12,10 @@ import QRCodes from "./QRCodes";
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div 
+        className="App"
+        style={{ position: 'relative', backgroundColor: 'white', minHeight: '100vh' }}
+      >
         <Routes>
           <Route path="/Red" element={<Red />} />
           <Route path="/Bull" element={<Bull />} />
