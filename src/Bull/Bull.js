@@ -1,13 +1,13 @@
 import vars from '../vars.js';  
 
-const vidUrl = `https://www.youtube.com/embed/5Ys-oX5vZog`
+const vidUrl = `https://www.youtube.com/embed/RFv1JW8jBe0?si=ZD4N3gO4_zHtLgV_`
 const origin = vars.origin
 const srcUrl = `${vidUrl}?origin=${origin}`
 
 function Bull() {
   return (
     <div>
-      <h1 style={{ color: 'red' }}>Bull</h1>
+      {/* <h1 style={{ color: 'red' }}>Bull</h1> */}
       <iframe
         src={srcUrl}
         width="480"
